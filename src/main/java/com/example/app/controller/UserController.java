@@ -59,6 +59,6 @@ public class UserController {
 
     @PostMapping("/insertUsers")
     public void insertUsers(@RequestBody User user) throws IOException {
-        System.out.println("------"+user);
+        System.out.println("------1111"+user);
     }
 }
